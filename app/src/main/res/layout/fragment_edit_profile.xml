@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Perbarui Profile Anda:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/headerValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/namaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/namaValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editNamaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Edit Nama"/>
+
+    <TextView
+        android:id="@+id/nimTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nimValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editNimEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Edit NIM"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"/>
+
+</LinearLayout>

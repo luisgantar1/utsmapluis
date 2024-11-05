@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "415219424069",
+    "project_id": "luisgantar-uts",
+    "storage_bucket": "luisgantar-uts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415219424069:android:8bb34230b60fdcb9e4bc2c",
+        "android_client_info": {
+          "package_name": "com.example.luisgantar_uts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYX7GngsJp3yCbs5kE59JJdzy9UqA6otU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415219424069:android:95a23f554a1fcadee4bc2c",
+        "android_client_info": {
+          "package_name": "example.example.luisgantar_uts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYX7GngsJp3yCbs5kE59JJdzy9UqA6otU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

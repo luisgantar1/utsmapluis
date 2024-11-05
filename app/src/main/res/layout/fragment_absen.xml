@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/absenMasukButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Absen Masuk" />
+
+    <Button
+        android:id="@+id/absenPulangButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Absen Pulang" />
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/timestampTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/takePhotoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambil Foto"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/retryPhotoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambil Foto Kembali"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/saveAbsenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Absen"
+        android:visibility="gone" />
+
+</LinearLayout>
